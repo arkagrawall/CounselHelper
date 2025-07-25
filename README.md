@@ -28,17 +28,19 @@ With it, you can:
 
 ## 📂 Project Structure
 
-CounselHelper/
-│
-├── index.html           # Main index page  
-├── config.php           # Database configuration  
-├── aktu.sql             # Database structure file  
-│
-├── /assets/             # Main page assets (CSS, JS, images, etc.)  
-│
-├── /csab/               # CSAB mock choice filler system  
-├── /helper/             # AKTU last year cutoff helper  
-├── /mock/               # AKTU mock choice filler (with PDF export script)
+<ul>
+  <li><b>CounselHelper/</b>
+    <ul>
+      <li><code>index.html</code> – Main index page</li>
+      <li><code>config.php</code> – Database configuration</li>
+      <li><code>aktu.sql</code> – Database structure file</li>
+      <li><b>assets/</b> – Main page assets (CSS, JS, images, etc.)</li>
+      <li><b>csab/</b> – CSAB mock choice filler system</li>
+      <li><b>helper/</b> – AKTU last year cutoff helper</li>
+      <li><b>mock/</b> – AKTU mock choice filler (includes Python PDF generator)</li>
+    </ul>
+  </li>
+</ul>
 
 ---
 

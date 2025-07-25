@@ -84,5 +84,5 @@ If you use it, please **give credits** to the author and **link this repository*
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/arkagrawal">Ark Agrawal</a>
+  Made with ❤️ by <a href="https://github.com/arkagrawall">Ark Agrawal</a>
 </p>

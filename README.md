@@ -57,7 +57,7 @@ With it, you can:
 Here’s a visual representation of the database:  
 
 <p align="center">
-  <img src="https://i.ibb.co/prNB3F6m/aktu-db-structure.png" alt="Database Structure" width="600">
+  <img src="https://camo.githubusercontent.com/2112af9e817f970d89c9f21d6925bfc9e113fca0f1db427dfb8c2de2fe46acfd/68747470733a2f2f692e6962622e636f2f70724e423346366d2f616b74752d64622d7374727563747572652e706e67" alt="Database Structure" width="600">
 </p>
 
 ---

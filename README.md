@@ -27,3 +27,62 @@ With it, you can:
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 🛠️ Tech Stack
+- **Backend:** PHP  
+- **Frontend:** HTML, CSS (**TailwindCSS**), JavaScript  
+- **Additional Scripts:** Python (for processing & PDF generation)  
+- **Database:** MySQL  
+
+---
+
+## ⚙️ Installation
+1. **Import the Database:**  
+   - Upload `aktu.sql` to your MySQL database.  
+   - Populate **AKTU** & **CSAB** tables with the latest year’s data.  
+
+2. **Update Configurations:**  
+   - Update database credentials in `config.php`.  
+   - Update database connection in `mock/converter.py` (**line 49**).  
+
+3. **Run the Project:**  
+   - Host the project on a PHP-supported server (e.g., **XAMPP**, **WAMP**, **Live Server**).  
+   - Access `index.html` in your browser.  
+
+---
+
+## 🧩 Database Structure
+Here’s a visual representation of the database:  
+
+<p align="center">
+  <img src="https://i.ibb.co/prNB3F6m/aktu-db-structure.png" alt="Database Structure" width="600">
+</p>
+
+---
+
+## 📖 Usage
+- You are free to **modify, rewrite, and extend** this repository.  
+- **Contributions are welcome!** Fork, improve, and submit a pull request.  
+
+> **If you use this project in your own work, please provide proper credits and link back to this repository.**
+
+---
+
+## 👤 Contributors
+- **@arkagrawal** (Author)  
+
+*Want to contribute?* Fork the repo, add your features, and make a pull request!  
+
+---
+
+## 📜 License & Credits
+This project is open for educational and personal use.  
+If you use it, please **give credits** to the author and **link this repository** in your project.
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/arkagrawal">Ark Agrawal</a>
+</p>

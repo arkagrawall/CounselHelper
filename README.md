@@ -28,6 +28,18 @@ With it, you can:
 
 ## 📂 Project Structure
 
+CounselHelper/
+│
+├── index.html           # Main index page  
+├── config.php           # Database configuration  
+├── aktu.sql             # Database structure file  
+│
+├── /assets/             # Main page assets (CSS, JS, images, etc.)  
+│
+├── /csab/               # CSAB mock choice filler system  
+├── /helper/             # AKTU last year cutoff helper  
+├── /mock/               # AKTU mock choice filler (with PDF export script)
+
 ---
 
 ## 🛠️ Tech Stack

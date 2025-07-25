@@ -26,6 +26,14 @@ With it, you can:
 
 ---
 
+## ✨ Features
+
+- ✅ **Persistent User Data** – Saves each user’s **name & rank combination** from their first login, allowing them to return and continue their choice filling without losing data.  
+- 🔒 **Data Integrity** – Ensures that user data remains **well-separated** and prevents any mismatches across users.  
+- 🆔 **Unique Identification** – Restricts multiple accounts per user by using their **rank as a unique key**, ensuring secure and clean data management.  
+
+---
+
 ## 📂 Project Structure
 
 <ul>

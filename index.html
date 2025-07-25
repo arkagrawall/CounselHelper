@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKTU.tech - Your Choice Filling Helper</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="AKTU.tech - Your Choice Filling Helper">
+  <meta property="og:description" content="Your ultimate choice filling helper for AKTU and CSAB. Explore, practice, and save your preferences effortlessly.">
+  <meta property="og:image" content="https://aktu.tech/assets/images/logo.png">
+  <meta property="og:url" content="https://aktu.tech">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AKTU.tech - Your Choice Filling Helper">
+  <meta name="twitter:description" content="Your ultimate choice filling helper for AKTU and CSAB. Explore, practice, and save your preferences effortlessly.">
+  <meta name="twitter:image" content="https://aktu.tech/assets/images/logo.png">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .header {
+      background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+    }
+    .header p {
+      font-size: 1.25rem;
+    }
+    .info-section {
+      padding: 3rem 2rem;
+      text-align: center;
+      background: #e0f2fe;
+      margin: 1rem 0;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      position: relative;
+    }
+    .info-section:hover {
+      transform: scale(1.02);
+    }
+    .info-section img {
+      height: 100px;
+      margin-bottom: 1rem;
+    }
+    .info-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .info-section p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .animated-button {
+      display: inline-block;
+      padding: 1rem 3rem;
+      margin: 1rem;
+      background-color: #1e3a8a;
+      color: white;
+      border-radius: 0.75rem;
+      font-size: 1.25rem;
+      font-weight: bold;
+      transition: transform 0.3s, background-color 0.3s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .animated-button:hover {
+      background-color: #3b82f6;
+      transform: translateY(-5px);
+    }
+    .footer {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .footer a {
+      color: #3b82f6;
+      transition: color 0.3s;
+    }
+    .footer a:hover {
+      color: #60a5fa;
+    }
+    .footer .credits {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    .header .home-button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s, transform 0.3s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .header .home-button:hover {
+      background-color: #60a5fa;
+      transform: translateY(-3px);
+    }
+    .countdown {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+    .logo {
+      height: 50px;
+      margin-right: 1rem;
+    }
+    @media (max-width: 640px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .header .home-button {
+        width: auto;
+        margin-top: 1rem;
+      }
+      .header h1 {
+        font-size: 2rem;
+      }
+      .header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="flex items-center justify-center w-full md:w-auto">
+    <img src="assets/images/logo.png" alt="Logo" class="logo">
+    <div>
+      <h1>AKTU.tech</h1>
+      <p>Your Ultimate Choice Filling Helper</p>
+    </div>
+  </div>
+  <div class="mt-2 md:mt-0">
+    <a href="https://aktu.tech" class="home-button"><i class="fas fa-home"></i> Home</a>
+  </div>
+</header>
+
+<section class="info-section">
+  <img src="assets/images/logo.png" alt="AKTU Logo" class="mx-auto">
+  <div class="info-section-content">
+    <h2>AKTU Last Year Cutoff Helper</h2>
+    <p>Get insights on last year's cutoff to make informed decisions for your choice filling.</p>
+    <a href="https://aktu.tech/helper" class="animated-button"><i class="fas fa-info-circle"></i> Visit Choice Helper</a>
+  </div>
+</section>
+
+<section class="info-section">
+  <img src="assets/images/logo.png" alt="AKTU Logo" class="mx-auto">
+  <div class="info-section-content">
+    <h2>AKTU Mock Choice Filler and Saver</h2>
+    <p>Practice your choice filling with our mock tool and save your preferences.</p>
+    <a href="https://aktu.tech/mock" class="animated-button"><i class="fas fa-play-circle"></i> Visit Mock Choice Filler</a>
+  </div>
+</section>
+
+<section class="info-section">
+  <img src="assets/images/csab_logo.png" alt="CSAB Logo" class="mx-auto">
+  <div class="info-section-content">
+    <h2>CSAB Choice Filler and Saver</h2>
+    <p>Explore and save your CSAB choices effectively using our tool.</p>
+    <a href="https://aktu.tech/csab" class="animated-button"><i class="fas fa-cogs"></i> Visit CSAB Choice Filler</a>
+  </div>
+</section>
+
+<section class="info-section">
+  <h2>Join Our Support </h2>
+  <p>Need help? Join support channels and groups for assistance.</p>
+  <a href="https://linkedin.com/in/arkagrawal" class="animated-button"><i class="fab fa-telegram-plane"></i> Connect me on linkedin</a>
+</section>
+
+<section class="info-section">
+  <h2>Choice Filling Starts In</h2>
+  <div id="countdown" class="countdown"></div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2025 AKTU Choice Filling Helper. All Rights Reserved.</p>
+  <p class="credits">Made & Managed by <a href="https://linkedin.com/in/arkagrawal">@Arkagrawal</a></p>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function updateCountdown() {
+    const startDate = new Date('July 17, 2024 00:00:00').getTime();
+    const now = new Date().getTime();
+    const distance = startDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById('countdown').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+    if (distance < 0) {
+      document.getElementById('countdown').innerHTML = 'Choice Filling Started!';
+    }
+  }
+
+  setInterval(updateCountdown, 1000);
+});
+</script>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 This project is a mock system for choice filling and saving options used in CSAB and AKTU counselling. It also allows users to check last year’s cutoffs to make more informed decisions.
 <h1 align="center">🧩 CounselHelper</h1>
 <p align="center">
-A powerful **Mock Counselling Helper** for <b>AKTU</b> and <b>CSAB</b> aspirants.  
+A powerful <b>Mock Counselling Helper</b> for <b>AKTU</b> and <b>CSAB</b> aspirants.  
 Practice choice filling, save your mock choices as PDF, and access last year's cutoffs — all in one place!
 </p>
 
